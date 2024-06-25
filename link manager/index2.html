@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* style.css */
+body {
+  background-image: url("jaiee.avif");
+  /*background-size: cover; /* Ensure background fills the viewport */
+  background-position: center; /* Center the background image */
+  font-family: Arial, sans-serif; /* Set a base font family */
+  height: 900px;
+}
+
+.main {
+  width: 80%; /* Responsive width based on viewport */
+  max-width: 500px; /* Set a maximum width for larger screens */
+  margin: 0 auto; /* Center the content horizontally using auto margins */
+  padding: 50px; /* Add some padding for better visuals */
+  text-align: center; /* Center the text within the main div */
+  /* Optional white semi-transparent background */
+  ;
+}
+
+h1{
+  font-size: 40px;
+}
+/* Media queries for responsive text sizes */
+@media (max-width: 768px) {
+  h1 {
+      font-size: 2.2rem; /* Adjust font size for smaller screens */
+      margin-top: 200px;
+  }
+  p {
+      font-size: 1rem; /* Adjust font size for smaller screens */
+  }
+
+  img{
+    margin-left: 202px;
+  }
+
+  body{
+    height: auto;
+  }
+
+  .main{
+    visibility: hidden;
+  }
+}
+
+    </style>
+</head>
+<body >
+    <div class="main">
+        <h1>Something Awesome is Coming Soon!</h1>
+    <p>We're currently working on our new website and it will be launched soon.</p>
+
+    </div>
+    
+</body>
+</html>
